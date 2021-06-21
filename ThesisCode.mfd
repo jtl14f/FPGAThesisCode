@@ -1,0 +1,38 @@
+MDF Database:  version 1.0
+MDF_INFO | ThesisCode | XC2C256-7-TQ144
+MACROCELL | 0 | 2 | CPLD_gate1_MC
+ATTRIBUTES | 1074004738 | 0
+INPUTS | 1 | MCU_gate1
+INPUTP | 1 | 212
+EQ | 1 | 
+   CPLD_gate1 = MCU_gate1;	// (1 pt, 1 inp)
+
+MACROCELL | 0 | 3 | CPLD_gate2_MC
+ATTRIBUTES | 1074004738 | 0
+INPUTS | 1 | MCU_gate2
+INPUTP | 1 | 211
+EQ | 1 | 
+   CPLD_gate2 = MCU_gate2;	// (1 pt, 1 inp)
+
+MACROCELL | 0 | 5 | CPLD_gate3_MC
+ATTRIBUTES | 1074004738 | 0
+INPUTS | 1 | MCU_gate3
+INPUTP | 1 | 1
+EQ | 1 | 
+   CPLD_gate3 = MCU_gate3;	// (1 pt, 1 inp)
+
+MACROCELL | 0 | 11 | CPLD_gate4_MC
+ATTRIBUTES | 1074004738 | 0
+INPUTS | 1 | MCU_gate4
+INPUTP | 1 | 3
+EQ | 1 | 
+   CPLD_gate4 = MCU_gate4;	// (1 pt, 1 inp)
+
+PIN | MCU_gate1 | 64 | 16 | LVCMOS18 | 212 | 1 | 0 | 2
+PIN | MCU_gate2 | 64 | 16 | LVCMOS18 | 211 | 1 | 0 | 3
+PIN | MCU_gate3 | 64 | 16 | LVCMOS18 | 1 | 1 | 0 | 5
+PIN | MCU_gate4 | 64 | 16 | LVCMOS18 | 3 | 1 | 0 | 11
+PIN | CPLD_gate1 | 536871040 | 0 | LVCMOS18 | 218
+PIN | CPLD_gate2 | 536871040 | 0 | LVCMOS18 | 217
+PIN | CPLD_gate3 | 536871040 | 0 | LVCMOS18 | 214
+PIN | CPLD_gate4 | 536871040 | 0 | LVCMOS18 | 213

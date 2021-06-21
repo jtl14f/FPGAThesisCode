@@ -1,0 +1,36 @@
+Pin Freeze File:  version P.20131013
+
+2C256144 XC2C256-7-TQ144
+MCU_gate1 S:PIN138
+MCU_gate2 S:PIN137
+MCU_gate3 S:PIN2
+MCU_gate4 S:PIN3
+CPLD_gate1 S:PIN143
+CPLD_gate2 S:PIN142
+CPLD_gate3 S:PIN140
+CPLD_gate4 S:PIN139
+
+
+;The remaining section of the .gyd file is for documentation purposes only.
+;It shows where your internal equations were placed in the last successful fit.
+
+PARTITION FB1_3 CPLD_gate1 CPLD_gate2
+PARTITION FB1_6 CPLD_gate3
+PARTITION FB1_12 CPLD_gate4
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

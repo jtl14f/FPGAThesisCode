@@ -1,0 +1,8 @@
+INTSTYLE=impact
+INFILE=C:\Users\Thomas LaJoie\Desktop\Thesis Code\FPGAThesisCode\impact.xsl
+OUTFILE=C:\Users\Thomas LaJoie\Desktop\Thesis Code\FPGAThesisCode\impact.xsl
+FAMILY=Single
+PART=Single
+WORKINGDIR=C:\Users\Thomas LaJoie\Desktop\Thesis Code\FPGAThesisCode
+LICENSE=iMPACT
+USER_INFO=iMPACT
