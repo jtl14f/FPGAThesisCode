@@ -5,23 +5,11 @@
 0 Group(s)
 
 ----------------- B l o c k 0 ------------------
-PLApt(4/56), Fanin(4/38), Clk(0/3), Bct(0/4), Pin(6/6), Mcell(4/16)
-PLApts[4/44] () () () () () () () () () () () () () () () () 0 () () 1 () () () () () 2 () () () () () () () () () () () () () () () () () 3
-Fanins[ 4] MCU_gate1.p MCU_gate2.p MCU_gate3.p MCU_gate4.p
-clk[0] 
-CTC: 
-CTR: 
-CTS: 
-CTE: 
-vref: [0]
-Signal[ 6] [CPLD_gate1(147),CPLD_gate1(143)] [CPLD_gate2(148),CPLD_gate2(142)]  
-           [CPLD_gate3(150),CPLD_gate3(140)] [CPLD_gate4(156),CPLD_gate4(139)] [MCU_gate1(138)]  
-           [MCU_gate2(137)] 
-Signal[ 6] [ 0:  ][ 1:  ][ 2: CPLD_gate1(147) CPLD_gate1(143)  ][ 3: CPLD_gate2(148) CPLD_gate2(142)  ][ 4:  
-            ][ 5: CPLD_gate3(150) CPLD_gate3(140)  ][ 6:  ][ 7:  ][ 8:  ][ 9:  ][ 10:  ][ 11:  
-           CPLD_gate4(156) CPLD_gate4(139)  ][ 12: MCU_gate1(138)  ][ 13: MCU_gate2(137)  ][ 14:  ][ 15:  ]
 ----------------- B l o c k 1 ------------------
-PLApt(0/56), Fanin(0/38), Clk(0/3), Bct(0/4), Pin(2/8), Mcell(0/16)
+----------------- B l o c k 2 ------------------
+----------------- B l o c k 3 ------------------
+----------------- B l o c k 4 ------------------
+PLApt(0/56), Fanin(0/38), Clk(0/3), Bct(0/4), Pin(4/5), Mcell(0/16)
 PLApts[0/0]
 Fanins[ 0]
 clk[0] 
@@ -30,12 +18,9 @@ CTR:
 CTS: 
 CTE: 
 vref: [0]
-Signal[ 2] [MCU_gate3(2)] [MCU_gate4(3)] 
-Signal[ 2] [ 0: MCU_gate3(2)  ][ 1:  ][ 2: MCU_gate4(3)  ][ 3: (4)  ][ 4: (5)  ][ 5:  ][ 6:  ][ 7:  ][ 8:  ] 
-           [ 9:  ][ 10:  ][ 11: (6)  ][ 12: (7)  ][ 13: (9)  ][ 14: (10)  ][ 15:  ]
------------------ B l o c k 2 ------------------
------------------ B l o c k 3 ------------------
------------------ B l o c k 4 ------------------
+Signal[ 4] [MCU_gate1(33)] [MCU_gate2(32)] [MCU_gate3(31)] [MCU_gate4(30)] 
+Signal[ 4] [ 0:  ][ 1: MCU_gate1(33)  ][ 2:  ][ 3: MCU_gate2(32)  ][ 4: MCU_gate3(31)  ][ 5: MCU_gate4(30)  ] 
+           [ 6:  ][ 7:  ][ 8:  ][ 9:  ][ 10:  ][ 11:  ][ 12:  ][ 13: (28)  ][ 14:  ][ 15:  ]
 ----------------- B l o c k 5 ------------------
 ----------------- B l o c k 6 ------------------
 ----------------- B l o c k 7 ------------------
@@ -46,4 +31,18 @@ Signal[ 2] [ 0: MCU_gate3(2)  ][ 1:  ][ 2: MCU_gate4(3)  ][ 3: (4)  ][ 4: (5)  ]
 ----------------- B l o c k 12 ------------------
 ----------------- B l o c k 13 ------------------
 ----------------- B l o c k 14 ------------------
+PLApt(4/56), Fanin(4/38), Clk(0/3), Bct(0/4), Pin(4/7), Mcell(4/16)
+PLApts[4/50] () () () () () () () () () () () () () () () () () () () () () () () () () () () () () () () () () () () () () () () () 1 () () 0 () () 3 () () 2
+Fanins[ 4] MCU_gate1.p MCU_gate2.p MCU_gate3.p MCU_gate4.p
+clk[0] 
+CTC: 
+CTR: 
+CTS: 
+CTE: 
+vref: [0]
+Signal[ 4] [CPLD_gate1(380),CPLD_gate1(86)] [CPLD_gate2(379),CPLD_gate2(85)]  
+           [CPLD_gate3(382),CPLD_gate3(88)] [CPLD_gate4(381),CPLD_gate4(87)] 
+Signal[ 4] [ 0:  ][ 1: (83)  ][ 2:  ][ 3:  ][ 4:  ][ 5:  ][ 6:  ][ 7:  ][ 8:  ][ 9:  ][ 10: CPLD_gate2(379)  
+           CPLD_gate2(85)  ][ 11: CPLD_gate1(380) CPLD_gate1(86)  ][ 12: CPLD_gate4(381) CPLD_gate4(87)  ] 
+           [ 13: CPLD_gate3(382) CPLD_gate3(88)  ][ 14: (91)  ][ 15: (92)  ]
 ----------------- B l o c k 15 ------------------

@@ -3,7 +3,7 @@
  
 cpldfit:  version P.20131013                        Xilinx Inc.
                                   Fitter Report
-Design Name: ThesisCode                          Date:  6-16-2021,  7:44PM
+Design Name: ThesisCode                          Date:  6-22-2021, 12:49PM
 Device Used: XC2C256-7-TQ144
 Fitting Status: Successful
 
@@ -17,7 +17,7 @@ Used/Tot       Used/Tot         Inps Used/Tot    Used/Tot       Used/Tot
 
 Function Mcells   FB Inps  Pterms   IO       CTC      CTR      CTS      CTE     
 Block    Used/Tot Used/Tot Used/Tot Used/Tot Used/Tot Used/Tot Used/Tot Used/Tot
-FB1       4/16      4/40     4/56     4/ 6    0/1      0/1      0/1      0/1
+FB1       0/16      0/40     0/56     0/ 6    0/1      0/1      0/1      0/1
 FB2       0/16      0/40     0/56     0/ 8    0/1      0/1      0/1      0/1
 FB3       0/16      0/40     0/56     0/ 6    0/1      0/1      0/1      0/1
 FB4       0/16      0/40     0/56     0/ 8    0/1      0/1      0/1      0/1
@@ -31,7 +31,7 @@ FB11      0/16      0/40     0/56     0/ 8    0/1      0/1      0/1      0/1
 FB12      0/16      0/40     0/56     0/ 6    0/1      0/1      0/1      0/1
 FB13      0/16      0/40     0/56     0/ 8    0/1      0/1      0/1      0/1
 FB14      0/16      0/40     0/56     0/ 8    0/1      0/1      0/1      0/1
-FB15      0/16      0/40     0/56     0/ 7    0/1      0/1      0/1      0/1
+FB15      4/16      4/40     4/56     4/ 7    0/1      0/1      0/1      0/1
 FB16      0/16      0/40     0/56     0/ 7    0/1      0/1      0/1      0/1
          -----    -------  -------   -----    ---      ---      ---      ---
 Total     4/256     4/640    4/896    4/118   0/16     0/16     0/16     0/16
@@ -54,10 +54,10 @@ Used/Tot    Used/Tot    Used/Tot    Used/Tot
 
 Signal Type    Required     Mapped  |  Pin Type            Used    Total 
 ------------------------------------|------------------------------------
-Input         :    4           4    |  I/O              :     5    108
-Output        :    4           4    |  GCK/IO           :     0      3
-Bidirectional :    0           0    |  GTS/IO           :     2      4
-GCK           :    0           0    |  GSR/IO           :     1      1
+Input         :    4           4    |  I/O              :     6    108
+Output        :    4           4    |  GCK/IO           :     2      3
+Bidirectional :    0           0    |  GTS/IO           :     0      4
+GCK           :    0           0    |  GSR/IO           :     0      1
 GTS           :    0           0    |  CDR/IO           :     0      1
 GSR           :    0           0    |  DGE/IO           :     0      1
                  ----        ----
@@ -74,19 +74,19 @@ WARNING:Cpld - Unable to retrieve the path to the iSE Project Repository. Will
 
 Signal              Total Total Bank Loc     Pin   Pin       Pin     I/O      I/O       Slew Reg     Reg Init
 Name                Pts   Inps               No.   Type      Use     STD      Style     Rate Use     State
-CPLD_gate1          1     1     2    FB1_3   143   GSR/I/O   O       LVCMOS18           FAST         
-CPLD_gate2          1     1     2    FB1_4   142   I/O       O       LVCMOS18           FAST         
-CPLD_gate3          1     1     2    FB1_6   140   I/O       O       LVCMOS18           FAST         
-CPLD_gate4          1     1     2    FB1_12  139   I/O       O       LVCMOS18           FAST         
+CPLD_gate2          1     1     1    FB15_11 85    I/O       O       LVCMOS18           FAST         
+CPLD_gate1          1     1     1    FB15_12 86    I/O       O       LVCMOS18           FAST         
+CPLD_gate4          1     1     1    FB15_13 87    I/O       O       LVCMOS18           FAST         
+CPLD_gate3          1     1     1    FB15_14 88    I/O       O       LVCMOS18           FAST         
 
 ** 4 Inputs **
 
 Signal              Bank Loc     Pin   Pin       Pin     I/O      I/O
 Name                             No.   Type      Use     STD      Style
-MCU_gate1           2    FB1_13  138   I/O       I       LVCMOS18 KPR
-MCU_gate2           2    FB1_14  137   I/O       I       LVCMOS18 KPR
-MCU_gate3           2    FB2_1   2     GTS/I/O   I       LVCMOS18 KPR
-MCU_gate4           2    FB2_3   3     GTS/I/O   I       LVCMOS18 KPR
+MCU_gate1           1    FB5_2   33    I/O       I       LVCMOS18 KPR
+MCU_gate2           1    FB5_4   32    GCK/I/O   I       LVCMOS18 KPR
+MCU_gate3           1    FB5_5   31    I/O       I       LVCMOS18 KPR
+MCU_gate4           1    FB5_6   30    GCK/I/O   I       LVCMOS18 KPR
 
 Legend:
 Pin No.   - ~     - User Assigned
@@ -114,40 +114,27 @@ Pin Type/Use - I  - Input             GCK - Global clock
 Pin No.      - ~  - User Assigned
 *********************************** FB1  ***********************************
 This function block is part of I/O Bank number:               2
-Number of function block inputs used/remaining:               4/36
+Number of function block inputs used/remaining:               0/40
 Number of function block control terms used/remaining:        0/4
-Number of PLA product terms used/remaining:                   4/52
+Number of PLA product terms used/remaining:                   0/56
 Signal                        Total Loc     Pin  Pin     Pin   CTC CTR CTS CTE
 Name                          Pt            No.  Type    Use   
 (unused)                      0     FB1_1        (b)           
 (unused)                      0     FB1_2        (b)           
-CPLD_gate1                    1     FB1_3   143  GSR/I/O O                 
-CPLD_gate2                    1     FB1_4   142  I/O     O                 
+(unused)                      0     FB1_3   143  GSR/I/O       
+(unused)                      0     FB1_4   142  I/O           
 (unused)                      0     FB1_5        (b)           
-CPLD_gate3                    1     FB1_6   140  I/O     O                 
+(unused)                      0     FB1_6   140  I/O           
 (unused)                      0     FB1_7        (b)           
 (unused)                      0     FB1_8        (b)           
 (unused)                      0     FB1_9        (b)           
 (unused)                      0     FB1_10       (b)           
 (unused)                      0     FB1_11       (b)           
-CPLD_gate4                    1     FB1_12  139  I/O     O                 
-(unused)                      0     FB1_13  138  I/O     I     
-(unused)                      0     FB1_14  137  I/O     I     
+(unused)                      0     FB1_12  139  I/O           
+(unused)                      0     FB1_13  138  I/O           
+(unused)                      0     FB1_14  137  I/O           
 (unused)                      0     FB1_15       (b)           
 (unused)                      0     FB1_16       (b)           
-
-Signals Used by Logic in Function Block
-  1: MCU_gate1          3: MCU_gate3          4: MCU_gate4 
-  2: MCU_gate2        
-
-Signal                     1         2         3         4 FB      
-Name             0----+----0----+----0----+----0----+----0 Inputs  
-CPLD_gate1        X....................................... 1       
-CPLD_gate2        .X...................................... 1       
-CPLD_gate3        ..X..................................... 1       
-CPLD_gate4        ...X.................................... 1       
-                 0----+----1----+----2----+----3----+----4
-                           0         0         0         0
 *********************************** FB2  ***********************************
 This function block is part of I/O Bank number:               2
 Number of function block inputs used/remaining:               0/40
@@ -155,9 +142,9 @@ Number of function block control terms used/remaining:        0/4
 Number of PLA product terms used/remaining:                   0/56
 Signal                        Total Loc     Pin  Pin     Pin   CTC CTR CTS CTE
 Name                          Pt            No.  Type    Use   
-(unused)                      0     FB2_1   2    GTS/I/O I     
+(unused)                      0     FB2_1   2    GTS/I/O       
 (unused)                      0     FB2_2        (b)           
-(unused)                      0     FB2_3   3    GTS/I/O I     
+(unused)                      0     FB2_3   3    GTS/I/O       
 (unused)                      0     FB2_4   4    I/O           
 (unused)                      0     FB2_5   5    GTS/I/O       
 (unused)                      0     FB2_6        (b)           
@@ -225,11 +212,11 @@ Number of PLA product terms used/remaining:                   0/56
 Signal                        Total Loc     Pin  Pin     Pin   CTC CTR CTS CTE
 Name                          Pt            No.  Type    Use   
 (unused)                      0     FB5_1        (b)           
-(unused)                      0     FB5_2   33   I/O           
+(unused)                      0     FB5_2   33   I/O     I     
 (unused)                      0     FB5_3        (b)           
-(unused)                      0     FB5_4   32   GCK/I/O       
-(unused)                      0     FB5_5   31   I/O           
-(unused)                      0     FB5_6   30   GCK/I/O       
+(unused)                      0     FB5_4   32   GCK/I/O I     
+(unused)                      0     FB5_5   31   I/O     I     
+(unused)                      0     FB5_6   30   GCK/I/O I     
 (unused)                      0     FB5_7        (b)           
 (unused)                      0     FB5_8        (b)           
 (unused)                      0     FB5_9        (b)           
@@ -449,9 +436,9 @@ Name                          Pt            No.  Type    Use
 (unused)                      0     FB14_16 61   I/O           
 *********************************** FB15 ***********************************
 This function block is part of I/O Bank number:               1
-Number of function block inputs used/remaining:               0/40
+Number of function block inputs used/remaining:               4/36
 Number of function block control terms used/remaining:        0/4
-Number of PLA product terms used/remaining:                   0/56
+Number of PLA product terms used/remaining:                   4/52
 Signal                        Total Loc     Pin  Pin     Pin   CTC CTR CTS CTE
 Name                          Pt            No.  Type    Use   
 (unused)                      0     FB15_1       (b)           
@@ -464,12 +451,25 @@ Name                          Pt            No.  Type    Use
 (unused)                      0     FB15_8       (b)           
 (unused)                      0     FB15_9       (b)           
 (unused)                      0     FB15_10      (b)           
-(unused)                      0     FB15_11 85   I/O           
-(unused)                      0     FB15_12 86   I/O           
-(unused)                      0     FB15_13 87   I/O           
-(unused)                      0     FB15_14 88   I/O           
+CPLD_gate2                    1     FB15_11 85   I/O     O                 
+CPLD_gate1                    1     FB15_12 86   I/O     O                 
+CPLD_gate4                    1     FB15_13 87   I/O     O                 
+CPLD_gate3                    1     FB15_14 88   I/O     O                 
 (unused)                      0     FB15_15 91   I/O           
 (unused)                      0     FB15_16 92   I/O           
+
+Signals Used by Logic in Function Block
+  1: MCU_gate1          3: MCU_gate3          4: MCU_gate4 
+  2: MCU_gate2        
+
+Signal                     1         2         3         4 FB      
+Name             0----+----0----+----0----+----0----+----0 Inputs  
+CPLD_gate2        .X...................................... 1       
+CPLD_gate1        X....................................... 1       
+CPLD_gate4        ...X.................................... 1       
+CPLD_gate3        ..X..................................... 1       
+                 0----+----1----+----2----+----3----+----4
+                           0         0         0         0
 *********************************** FB16 ***********************************
 This function block is part of I/O Bank number:               1
 Number of function block inputs used/remaining:               0/40
@@ -524,9 +524,9 @@ Device : XC2C256-7-TQ144
 
 Pin Signal                         Pin Signal                        
 No. Name                           No. Name                          
-  1 VCC                              73 VCCIO-UNUSED                  
-  2 MCU_gate3                        74 KPR                           
-  3 MCU_gate4                        75 KPR                           
+  1 VCC                              73 VCCIO-1.8                     
+  2 KPR                              74 KPR                           
+  3 KPR                              75 KPR                           
   4 KPR                              76 KPR                           
   5 KPR                              77 KPR                           
   6 KPR                              78 KPR                           
@@ -536,31 +536,31 @@ No. Name                           No. Name
  10 KPR                              82 KPR                           
  11 KPR                              83 KPR                           
  12 KPR                              84 VCC                           
- 13 KPR                              85 KPR                           
- 14 KPR                              86 KPR                           
- 15 KPR                              87 KPR                           
- 16 KPR                              88 KPR                           
+ 13 KPR                              85 CPLD_gate2                    
+ 14 KPR                              86 CPLD_gate1                    
+ 15 KPR                              87 CPLD_gate4                    
+ 16 KPR                              88 CPLD_gate3                    
  17 KPR                              89 GND                           
  18 KPR                              90 GND                           
  19 KPR                              91 KPR                           
  20 KPR                              92 KPR                           
- 21 KPR                              93 VCCIO-UNUSED                  
+ 21 KPR                              93 VCCIO-1.8                     
  22 KPR                              94 KPR                           
  23 KPR                              95 KPR                           
  24 KPR                              96 KPR                           
  25 KPR                              97 KPR                           
  26 KPR                              98 KPR                           
- 27 VCCIO-UNUSED                     99 GND                           
+ 27 VCCIO-1.8                        99 GND                           
  28 KPR                             100 KPR                           
  29 GND                             101 KPR                           
- 30 KPR                             102 KPR                           
- 31 KPR                             103 KPR                           
- 32 KPR                             104 KPR                           
- 33 KPR                             105 KPR                           
+ 30 MCU_gate4                       102 KPR                           
+ 31 MCU_gate3                       103 KPR                           
+ 32 MCU_gate2                       104 KPR                           
+ 33 MCU_gate1                       105 KPR                           
  34 KPR                             106 KPR                           
  35 KPR                             107 KPR                           
  36 GND                             108 GND                           
- 37 VCC                             109 VCCIO-1.8                     
+ 37 VCC                             109 VCCIO-UNUSED                  
  38 KPR                             110 KPR                           
  39 KPR                             111 KPR                           
  40 KPR                             112 KPR                           
@@ -578,7 +578,7 @@ No. Name                           No. Name
  52 KPR                             124 KPR                           
  53 KPR                             125 KPR                           
  54 KPR                             126 KPR                           
- 55 VCCIO-UNUSED                    127 VCCIO-1.8                     
+ 55 VCCIO-1.8                       127 VCCIO-UNUSED                  
  56 KPR                             128 KPR                           
  57 KPR                             129 KPR                           
  58 KPR                             130 KPR                           
@@ -588,13 +588,13 @@ No. Name                           No. Name
  62 GND                             134 KPR                           
  63 TDI                             135 KPR                           
  64 KPR                             136 KPR                           
- 65 TMS                             137 MCU_gate2                     
- 66 KPR                             138 MCU_gate1                     
- 67 TCK                             139 CPLD_gate4                    
- 68 KPR                             140 CPLD_gate3                    
- 69 KPR                             141 VCCIO-1.8                     
- 70 KPR                             142 CPLD_gate2                    
- 71 KPR                             143 CPLD_gate1                    
+ 65 TMS                             137 KPR                           
+ 66 KPR                             138 KPR                           
+ 67 TCK                             139 KPR                           
+ 68 KPR                             140 KPR                           
+ 69 KPR                             141 VCCIO-UNUSED                  
+ 70 KPR                             142 KPR                           
+ 71 KPR                             143 KPR                           
  72 GND                             144 GND                           
 
 
