@@ -3,7 +3,7 @@
  
 cpldfit:  version P.20131013                        Xilinx Inc.
                                   Fitter Report
-Design Name: ThesisCode                          Date:  6-22-2021, 12:49PM
+Design Name: ThesisCode                          Date:  6-22-2021,  3:43PM
 Device Used: XC2C256-7-TQ144
 Fitting Status: Successful
 
@@ -68,6 +68,22 @@ End of Mapped Resource Summary
 
 WARNING:Cpld - Unable to retrieve the path to the iSE Project Repository. Will
    use the default filename of 'ThesisCode.ise'.
+INFO:Cpld - Inferring BUFG constraint for signal 'MCU_gate2' based upon the LOC
+   constraint 'P32'. It is recommended that you declare this BUFG explicitedly
+   in your design. Note that for certain device families the output of a BUFG
+   constraint can not drive a gated clock, and the BUFG constraint will be
+   ignored.
+INFO:Cpld - Inferring BUFG constraint for signal 'MCU_gate4' based upon the LOC
+   constraint 'P30'. It is recommended that you declare this BUFG explicitedly
+   in your design. Note that for certain device families the output of a BUFG
+   constraint can not drive a gated clock, and the BUFG constraint will be
+   ignored.
+WARNING:Cpld:1239 - The global clock designation (BUFG) on signal
+   'CPLD_gate4_OBUF' is ignored. Most likely the signal is gated and therefore
+   cannot be used as a global control signal.
+WARNING:Cpld:1239 - The global clock designation (BUFG) on signal
+   'CPLD_gate2_OBUF' is ignored. Most likely the signal is gated and therefore
+   cannot be used as a global control signal.
 *************************  Summary of Mapped Logic  ************************
 
 ** 4 Outputs **
