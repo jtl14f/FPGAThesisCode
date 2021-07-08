@@ -30,24 +30,21 @@ use IEEE.STD_LOGIC_1164.ALL;
 --use UNISIM.VComponents.all;
 
 entity ThesisCode is
-    Port ( MCU_gate1 : in  STD_LOGIC;
-           MCU_gate2 : in  STD_LOGIC;
-           MCU_gate3 : in  STD_LOGIC;
-           MCU_gate4 : in  STD_LOGIC;
-			  CPLD_gate1 : out STD_LOGIC;
-			  CPLD_gate2 : out STD_LOGIC;
-			  CPLD_gate3 : out STD_LOGIC;
-			  CPLD_gate4 : out STD_LOGIC);
+    Port ( MCU_gate0 : in  STD_LOGIC;
+           MCU_gate1 : in  STD_LOGIC;
+			  CPLD_gate17 : out STD_LOGIC;
+			  CPLD_gate18 : out STD_LOGIC;
+			  CPLD_gate19 : out STD_LOGIC;
+			  CPLD_gate20 : out STD_LOGIC);
 end ThesisCode;
 
 architecture Behavioral of ThesisCode is
 
 begin
 
-	CPLD_gate1 <= MCU_gate1;
-	CPLD_gate2 <= MCU_gate2;
-	CPLD_gate3 <= MCU_gate3;
-	CPLD_gate4 <= MCU_gate4;
-
+	CPLD_gate17 <= MCU_gate1;
+	CPLD_gate18 <= MCU_gate0;
+	CPLD_gate19 <= MCU_gate1;
+	CPLD_gate20 <= MCU_gate0;
+	
 end Behavioral;
-

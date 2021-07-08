@@ -15,4 +15,4 @@
   sr     (SLOW|FAST|slow|fast) "SLOW"
   dir    (BIDIR|bidir|INPUT|input|OUTPUT|output) "BIDIR">
 ]>
-<ibis><part arch="xbr" device="XC2C256" pkg="TQ144" spg="-7"/><pin dir="input" iostd="LVCMOS18" nm="MCU_gate1" no="33"/><pin dir="input" iostd="LVCMOS18" nm="MCU_gate2" no="32"/><pin dir="input" iostd="LVCMOS18" nm="MCU_gate3" no="31"/><pin dir="input" iostd="LVCMOS18" nm="MCU_gate4" no="30"/><pin dir="output" iostd="LVCMOS18" nm="CPLD_gate1" no="86" sr="fast"/><pin dir="output" iostd="LVCMOS18" nm="CPLD_gate2" no="85" sr="fast"/><pin dir="output" iostd="LVCMOS18" nm="CPLD_gate3" no="88" sr="fast"/><pin dir="output" iostd="LVCMOS18" nm="CPLD_gate4" no="87" sr="fast"/></ibis>
+<ibis><part arch="xbr" device="XC2C256" pkg="TQ144" spg="-7"/><pin dir="input" iostd="LVCMOS18" nm="MCU_gate1" no="32"/><pin dir="input" iostd="LVCMOS18" nm="MCU_gate0" no="33"/><pin dir="output" iostd="LVCMOS18" nm="CPLD_gate17" no="86" sr="fast"/><pin dir="output" iostd="LVCMOS18" nm="CPLD_gate18" no="85" sr="fast"/><pin dir="output" iostd="LVCMOS18" nm="CPLD_gate19" no="88" sr="fast"/><pin dir="output" iostd="LVCMOS18" nm="CPLD_gate20" no="87" sr="fast"/></ibis>

@@ -1,14 +1,12 @@
 Pin Freeze File:  version P.20131013
 
 2C256144 XC2C256-7-TQ144
-MCU_gate1 S:PIN33
-MCU_gate2 S:PIN32
-MCU_gate3 S:PIN31
-MCU_gate4 S:PIN30
-CPLD_gate1 S:PIN86
-CPLD_gate2 S:PIN85
-CPLD_gate3 S:PIN88
-CPLD_gate4 S:PIN87
+MCU_gate0 S:PIN33
+MCU_gate1 S:PIN32
+CPLD_gate17 S:PIN86
+CPLD_gate18 S:PIN85
+CPLD_gate19 S:PIN88
+CPLD_gate20 S:PIN87
 
 
 ;The remaining section of the .gyd file is for documentation purposes only.
@@ -28,7 +26,7 @@ CPLD_gate4 S:PIN87
 
 
 
-PARTITION FB15_11 CPLD_gate2 CPLD_gate1 CPLD_gate4 CPLD_gate3
+PARTITION FB15_11 CPLD_gate18 CPLD_gate17 CPLD_gate20 CPLD_gate19
 		
 
 

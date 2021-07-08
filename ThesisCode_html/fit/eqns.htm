@@ -3,34 +3,30 @@
 <script src="paths.js"></script><script src="eqns.js"></script><script>
       var design = "ThesisCode";
       var device = "XC2C256";
-      signals = new Array("CPLD_gate1","CPLD_gate2","CPLD_gate3","CPLD_gate4");
+      signals = new Array("CPLD_gate17","CPLD_gate18","CPLD_gate19","CPLD_gate20");
       sigNegs = new Array("OFF","OFF","OFF","OFF");
       sigTypes = new Array("","","","");
 
       
+           iostyle["MCU_gate0"]=new Array("KPR");
+        
            iostyle["MCU_gate1"]=new Array("KPR");
         
-           iostyle["MCU_gate2"]=new Array("KPR");
-        
-           iostyle["MCU_gate3"]=new Array("KPR");
-        
-           iostyle["MCU_gate4"]=new Array("KPR");
-        
-            pterms["FB15_40"]=new Array("MCU_gate2");
+            pterms["FB15_40"]=new Array("MCU_gate0");
           
             pterms["FB15_43"]=new Array("MCU_gate1");
           
-            pterms["FB15_46"]=new Array("MCU_gate4");
+            pterms["FB15_46"]=new Array("MCU_gate0");
           
-            pterms["FB15_49"]=new Array("MCU_gate3");
+            pterms["FB15_49"]=new Array("MCU_gate1");
           
-          d1["CPLD_gate2"]=new Array("FB15_40");
+          d1["CPLD_gate18"]=new Array("FB15_40");
           
-          d1["CPLD_gate1"]=new Array("FB15_43");
+          d1["CPLD_gate17"]=new Array("FB15_43");
           
-          d1["CPLD_gate4"]=new Array("FB15_46");
+          d1["CPLD_gate20"]=new Array("FB15_40");
           
-          d1["CPLD_gate3"]=new Array("FB15_49");
+          d1["CPLD_gate19"]=new Array("FB15_43");
           
 
       uimSignals = new Array();
