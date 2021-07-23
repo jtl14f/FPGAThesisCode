@@ -1,7 +1,7 @@
 Release 8.1i - Fit P.20131013
 Copyright(c) 1995-2003 Xilinx Inc. All rights reserved
 
- 7- 8-2021  3:00PM
+ 7-22-2021  1:01PM
 
 NOTE: This file is designed to be imported into a spreadsheet program
 such as Microsoft Excel for viewing, printing and sorting. The pipe '|'
@@ -102,10 +102,10 @@ P81|KPR||I/O|||1|||||||
 P82|KPR||I/O|||1|||||||
 P83|KPR||I/O|||1|||||||
 P84||VCC|VCC||||||||||
-P85|CPLD_gate18|O|I/O|OUTPUT|LVCMOS18|1||FAST||||
-P86|CPLD_gate17|O|I/O|OUTPUT|LVCMOS18|1||FAST||||
-P87|CPLD_gate20|O|I/O|OUTPUT|LVCMOS18|1||FAST||||
-P88|CPLD_gate19|O|I/O|OUTPUT|LVCMOS18|1||FAST||||
+P85|CPLD_gate17|O|I/O|OUTPUT|LVCMOS18|1||FAST||||
+P86|CPLD_gate18|O|I/O|OUTPUT|LVCMOS18|1||FAST||||
+P87|CPLD_gate19|O|I/O|OUTPUT|LVCMOS18|1||FAST||||
+P88|CPLD_gate20|O|I/O|OUTPUT|LVCMOS18|1||FAST||||
 P89|GND||GND||||||||||
 P90|GND||GND||||||||||
 P91|KPR||I/O|||1|||||||

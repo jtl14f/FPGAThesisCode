@@ -32,7 +32,7 @@ Signal[ 2] [ 0:  ][ 1: MCU_gate0(33)  ][ 2:  ][ 3: MCU_gate1(32)  ][ 4: (31)  ][
 ----------------- B l o c k 13 ------------------
 ----------------- B l o c k 14 ------------------
 PLApt(4/56), Fanin(2/38), Clk(0/3), Bct(0/4), Pin(4/7), Mcell(4/16)
-PLApts[4/50] () () () () () () () () () () () () () () () () () () () () () () () () () () () () () () () () () () () () () () () () 0 () () 1 () () 0 () () 1
+PLApts[4/50] () () () () () () () () () () () () () () () () () () () () () () () () () () () () () () () () () () () () () () () () 1 () () 0 () () 1 () () 0
 Fanins[ 2] MCU_gate0.p MCU_gate1.p
 clk[0] 
 CTC: 
@@ -40,9 +40,9 @@ CTR:
 CTS: 
 CTE: 
 vref: [0]
-Signal[ 4] [CPLD_gate17(380),CPLD_gate17(86)] [CPLD_gate18(379),CPLD_gate18(85)]  
-           [CPLD_gate19(382),CPLD_gate19(88)] [CPLD_gate20(381),CPLD_gate20(87)] 
-Signal[ 4] [ 0:  ][ 1: (83)  ][ 2:  ][ 3:  ][ 4:  ][ 5:  ][ 6:  ][ 7:  ][ 8:  ][ 9:  ][ 10: CPLD_gate18(379)  
-           CPLD_gate18(85)  ][ 11: CPLD_gate17(380) CPLD_gate17(86)  ][ 12: CPLD_gate20(381) CPLD_gate20(87)  
-            ][ 13: CPLD_gate19(382) CPLD_gate19(88)  ][ 14: (91)  ][ 15: (92)  ]
+Signal[ 4] [CPLD_gate17(379),CPLD_gate17(85)] [CPLD_gate18(380),CPLD_gate18(86)]  
+           [CPLD_gate19(381),CPLD_gate19(87)] [CPLD_gate20(382),CPLD_gate20(88)] 
+Signal[ 4] [ 0:  ][ 1: (83)  ][ 2:  ][ 3:  ][ 4:  ][ 5:  ][ 6:  ][ 7:  ][ 8:  ][ 9:  ][ 10: CPLD_gate17(379)  
+           CPLD_gate17(85)  ][ 11: CPLD_gate18(380) CPLD_gate18(86)  ][ 12: CPLD_gate19(381) CPLD_gate19(87)  
+            ][ 13: CPLD_gate20(382) CPLD_gate20(88)  ][ 14: (91)  ][ 15: (92)  ]
 ----------------- B l o c k 15 ------------------

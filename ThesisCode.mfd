@@ -1,36 +1,36 @@
 MDF Database:  version 1.0
 MDF_INFO | ThesisCode | XC2C256-7-TQ144
-MACROCELL | 14 | 11 | CPLD_gate17_MC
+MACROCELL | 14 | 10 | CPLD_gate17_MC
 ATTRIBUTES | 1074004738 | 0
 INPUTS | 1 | MCU_gate1
 INPUTP | 1 | 50
 EQ | 1 | 
    CPLD_gate17 = MCU_gate1;	// (1 pt, 1 inp)
 
-MACROCELL | 14 | 10 | CPLD_gate18_MC
+MACROCELL | 14 | 11 | CPLD_gate18_MC
 ATTRIBUTES | 1074004738 | 0
 INPUTS | 1 | MCU_gate0
 INPUTP | 1 | 52
 EQ | 1 | 
    CPLD_gate18 = MCU_gate0;	// (1 pt, 1 inp)
 
-MACROCELL | 14 | 13 | CPLD_gate19_MC
+MACROCELL | 14 | 12 | CPLD_gate19_MC
 ATTRIBUTES | 1074004738 | 0
 INPUTS | 1 | MCU_gate1
 INPUTP | 1 | 50
 EQ | 1 | 
    CPLD_gate19 = MCU_gate1;	// (1 pt, 1 inp)
 
-MACROCELL | 14 | 12 | CPLD_gate20_MC
+MACROCELL | 14 | 13 | CPLD_gate20_MC
 ATTRIBUTES | 1074004738 | 0
 INPUTS | 1 | MCU_gate0
 INPUTP | 1 | 52
 EQ | 1 | 
    CPLD_gate20 = MCU_gate0;	// (1 pt, 1 inp)
 
-PIN | MCU_gate1 | 64 | 16 | LVCMOS18 | 50 | 2 | 14 | 11 | 14 | 13
-PIN | MCU_gate0 | 64 | 16 | LVCMOS18 | 52 | 2 | 14 | 10 | 14 | 12
-PIN | CPLD_gate17 | 536871040 | 0 | LVCMOS18 | 132
-PIN | CPLD_gate18 | 536871040 | 0 | LVCMOS18 | 131
-PIN | CPLD_gate19 | 536871040 | 0 | LVCMOS18 | 134
-PIN | CPLD_gate20 | 536871040 | 0 | LVCMOS18 | 133
+PIN | MCU_gate1 | 64 | 16 | LVCMOS18 | 50 | 2 | 14 | 10 | 14 | 12
+PIN | MCU_gate0 | 64 | 16 | LVCMOS18 | 52 | 2 | 14 | 11 | 14 | 13
+PIN | CPLD_gate17 | 536871040 | 0 | LVCMOS18 | 131
+PIN | CPLD_gate18 | 536871040 | 0 | LVCMOS18 | 132
+PIN | CPLD_gate19 | 536871040 | 0 | LVCMOS18 | 133
+PIN | CPLD_gate20 | 536871040 | 0 | LVCMOS18 | 134

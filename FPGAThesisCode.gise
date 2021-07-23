@@ -79,7 +79,7 @@
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1625770848" xil_pn:in_ck="3002823726475" xil_pn:name="TRANEXT_xstsynthesize_xbr" xil_pn:prop_ck="5295546163402069132" xil_pn:start_ts="1625770841">
+    <transform xil_pn:end_ts="1626973244" xil_pn:in_ck="3002823726475" xil_pn:name="TRANEXT_xstsynthesize_xbr" xil_pn:prop_ck="5295546163402069132" xil_pn:start_ts="1626973227">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
       <outfile xil_pn:name=".lso"/>
@@ -96,11 +96,11 @@
       <outfile xil_pn:name="webtalk_pn.xml"/>
       <outfile xil_pn:name="xst"/>
     </transform>
-    <transform xil_pn:end_ts="1625770104" xil_pn:in_ck="5982708127170175831" xil_pn:name="TRAN_compileBCD2" xil_pn:prop_ck="-1239068392469383037" xil_pn:start_ts="1625770104">
+    <transform xil_pn:end_ts="1626973244" xil_pn:in_ck="5982708127170175831" xil_pn:name="TRAN_compileBCD2" xil_pn:prop_ck="-1239068392469383037" xil_pn:start_ts="1626973244">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1625770854" xil_pn:in_ck="-3697916478508174552" xil_pn:name="TRAN_ngdbuild" xil_pn:prop_ck="2821561388823001824" xil_pn:start_ts="1625770848">
+    <transform xil_pn:end_ts="1626973255" xil_pn:in_ck="-3697916478508174552" xil_pn:name="TRAN_ngdbuild" xil_pn:prop_ck="2821561388823001824" xil_pn:start_ts="1626973244">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
       <outfile xil_pn:name="ThesisCode.bld"/>
@@ -109,7 +109,7 @@
       <outfile xil_pn:name="_ngo"/>
       <outfile xil_pn:name="_xmsgs/ngdbuild.xmsgs"/>
     </transform>
-    <transform xil_pn:end_ts="1625770861" xil_pn:in_ck="5982708127170168338" xil_pn:name="TRANEXT_vm6File_xbr" xil_pn:prop_ck="5783836384345347204" xil_pn:start_ts="1625770854">
+    <transform xil_pn:end_ts="1626973271" xil_pn:in_ck="5982708127170168338" xil_pn:name="TRANEXT_vm6File_xbr" xil_pn:prop_ck="5783836384345347204" xil_pn:start_ts="1626973255">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="WarningsGenerated"/>
       <status xil_pn:value="ReadyToRun"/>
@@ -130,7 +130,7 @@
       <outfile xil_pn:name="ThesisCode_html"/>
       <outfile xil_pn:name="ThesisCode_pad.csv"/>
     </transform>
-    <transform xil_pn:end_ts="1625770864" xil_pn:in_ck="5982708127170177202" xil_pn:name="TRANEXT_crtProg_xbr" xil_pn:prop_ck="5245363024343" xil_pn:start_ts="1625770861">
+    <transform xil_pn:end_ts="1626973275" xil_pn:in_ck="5982708127170177202" xil_pn:name="TRANEXT_crtProg_xbr" xil_pn:prop_ck="5245363024343" xil_pn:start_ts="1626973271">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
       <outfile xil_pn:name="ThesisCode.jed"/>
@@ -141,7 +141,7 @@
       <status xil_pn:value="OutOfDateForInputs"/>
       <status xil_pn:value="InputChanged"/>
     </transform>
-    <transform xil_pn:end_ts="1625771062" xil_pn:in_ck="5982708127170163916" xil_pn:name="TRAN_configureTargetDevice_CPLD" xil_pn:prop_ck="-3223234765801749484" xil_pn:start_ts="1625771054">
+    <transform xil_pn:end_ts="1626973295" xil_pn:in_ck="5982708127170163916" xil_pn:name="TRAN_configureTargetDevice_CPLD" xil_pn:prop_ck="-3223234765801749484" xil_pn:start_ts="1626973292">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
